@@ -1,0 +1,253 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codsoft Task: Landing Page</title>
+    <style>
+        @font-face {
+            font-family: myfont;
+            src: url(magic.ttf);
+
+        }
+
+        @font-face {
+            font-family: myfont1;
+            src: url(ral.otf);
+        }
+
+        body {
+            background-color: black;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .right ul {
+            font-family: myfont1;
+            list-style: none;
+            display: flex;
+            font-weight: 800;
+            font-size: 20px;
+        }
+
+        .right ul li {
+            margin: 0 60px;
+        }
+
+        .left {
+            display: flex;
+        }
+
+        .left ul {
+            font-family: myfont1;
+            list-style: none;
+            display: flex;
+            font-weight: 800;
+            font-size: 20px;
+        }
+
+        .left ul li {
+            padding: 0 40px;
+        }
+
+        nav ul li a {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: red;
+        }
+
+        .left button {
+            cursor: pointer;
+            border: none;
+            background-color: red;
+            padding: 0 50px;
+            color: aliceblue;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 15px;
+            transition: .4s;
+            margin: 1pc;
+        }
+
+        .left button:hover {
+            transform: scale(1.3);
+            cursor: pointer;
+        }
+
+        .logo {
+            font-size: 30px;
+        }
+
+        header hr {
+            margin: 2px 20px;
+            margin-left: 70px;
+        }
+
+        .firstsection {
+            display: flex;
+            overflow: hidden;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 80px;
+        }
+
+        .firstrightsection {
+            width: 35%;
+            position: absolute;
+            top: 25%;
+            left: 4%;
+        }
+
+        .firstleftsection {}
+
+        /* .firstsection>div{
+            width: 30%;
+          
+        } */
+
+        .firstleftsection img {
+            width: 35%;
+            margin: 15px;
+            border-radius: 20px;
+            position: absolute;
+            bottom: 0px;
+            right: 50px;
+        }
+
+        .coverheading {
+
+
+            font-weight: 600;
+            color: aliceblue;
+            font-family: myfont;
+            font-size: 80px;
+            justify-content: center;
+            text-align: end;
+            height: auto;
+
+        }
+
+        .joincommunity {
+            color: aliceblue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .getstartedbutton {
+            cursor: pointer;
+            border: none;
+            background-color: red;
+            padding: 10px 50px;
+            color: aliceblue;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 15px;
+            transition: .4s;
+            margin: 4pc;
+            position: absolute;
+            bottom: 40px;
+            left: 80px;
+        }
+        .getstartedbutton a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        .getstartedbutton :hover{
+          font-size: 1.1rem;
+          
+        }
+        .coverheading1{
+            display: contents;
+        }
+        .loginbutton{
+            display: contents;
+        }
+        .horizontalline{
+            display: contents;
+        }
+        .joincommunity{
+            display: contents;
+        }
+        footer{          
+            height: 30px;
+            position: relative;
+            top: 87%;
+        }
+        .footerclass{
+            display: flex;
+            justify-content: center;
+        }
+        .footerclass1{
+            padding: 0 7px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="right">
+                <ul>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">How it works</a></li>
+                    <li><a href="/">Pricing</a></li>
+                    <li><a href="/">FAQ</a></li>
+                </ul>
+            </div>
+            <h1 class="logo">Artisan</h1>
+            <div class="left">
+                <ul>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+                <button>
+                    Log in
+                </button>
+            </div>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section class="firstsection">
+
+            <div class="firstrightsection">
+                <div class="coverheading1">
+                    <h1 class="coverheading">YOUR FIRST DIGITAL ART COLLECTION</h1>
+                </div>
+                <div class="loginbutton"><button class="getstartedbutton"><a href="/">Get Started</a></button></div>
+                <div class="horizontalline">
+                    <hr>
+                </div>
+                <div class="joincommunity">
+                    <h3>JOIN YOUR 150K+ COMMUNITY OF TALENTED ARTISTS</h3>
+                </div>
+               
+
+            </div>
+
+
+            <div class="firstleftsection">
+                <img src="coverphoto.jpg" alt="coverphoto">
+            </div>
+           
+        </section>
+    </main>
+  
+<footer>
+    <div class="footerclass">
+    <div class="footerclass1"> <a href="https://www.github.com/"><img  src="github.png" alt="" ></a></div>
+    <div class="footerclass1"><a href="https://www.instagram.com/"><img  src="instagram.png" alt=""></a></div>
+    <div class="footerclass1"><a href="https://www.facebook.com/"><img src="facebook.png" alt=""></a></div>
+    <div class="footerclass1"><a href="https://www.linkedin.com/"><img src="linkedin.png" alt=""></a></div>
+</div>
+</footer>
+</body>
+
+</html>
